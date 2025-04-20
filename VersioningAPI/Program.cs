@@ -56,7 +56,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
+// this line was added to test the github with multiple users
 app.UseAuthorization();
 
 app.MapControllers();
